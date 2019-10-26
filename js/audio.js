@@ -12,7 +12,7 @@ document.getElementById('toggle-mute').onclick = function () {
   
   if (muteAll) {
     changeLogo(icon, 'volumn-mute', 'volumn-up');
-    this.innerHTML = "Just a joke, I cheat you to click, Now Scroll can play sound audio";
+    this.innerHTML = "Just a joke, I cheat you to click, Now Scroll can play audio sound";
   } else {
     changeLogo(icon, 'volumn-up', 'volumn-mute');
     this.innerHTML = "Unmuted Now";
